@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+:root{
+	--lightred:#001729;
+	--darkred:#08243b;
+	--white:#ffffff;
+	--lightwhite: #dfdfdf;
+	--black:#010103;
+}
+body{
+	background: linear-gradient(45deg, #9a9a9a, #808080);
+	font-family: 'Mukta', sans-serif;
+}
+.left-p{
+	font-size: 19px;
+    background: var(--lightred);
+    padding: 0px 0px;
+    text-align: center;
+}
+.resume{
+	width: 700px;
+	background: var(--white);
+	margin: 50px auto;
+	position: relative;
+}
+.clearfix{clear: both;}
+.left{
+	width: 200px;
+	float: left;
+	padding: 25px;
+	color: var(--white);
+	background: var(--darkred);
+}
+.name{font-size: 24px; text-align: center; text-transform:uppercase; font-weight: 100;
+letter-spacing: 2px; margin-bottom: 0px;}
+.p1{color: var(--lightwhite); text-align: center; margin-top: -5px; font-size: 14px;}
+.right{width: 450px;float: left;text-align: center;overflow: hidden;}
+.profile{width: 93%;
+    border-radius: 50%;
+    border: 7px solid white;}
+.heading-1{
+	background: #001729;
+    margin: 0px -25px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.com-p{margin: 0px; color:var(--lightwhite);}
+.sect-one, .sect-two, .sect-three,.sect-four,.sect-five {position: relative; height: 195px;}
+
+.label-1{
+	background: #f87701;
+    color: white;
+    position: absolute;
+    width: 41%;
+    padding: 5px;
+    transform: rotateZ(270deg);
+    left: -81px;
+    top: 67px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.label-2{
+	background: #91c917;
+}
+.label-3{
+	background: #f50545;
+}
+.label-4{
+	background: #69009d;
+}
+.label-5{
+	background: #05a3fa;
+}
+.content{
+	width: 350px;
+	float: left;
+	height: 190px;
+}
+.icon{
+	width: 100px;
+    float: left;
+    text-align: center;
+    margin-top: 70px;
+}
+.icon-1{
+	font-size: 51px!important;
+    color: #f87701;
+    transform: rotateY(180deg);
+}
+.circle{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+.circle1{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+.circle2{
+	width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    top: -27px;
+    z-index: 9;
+    left: 0px;
+        border-radius: 0px 36px 36px 0px;
+    transform: rotateZ(182deg);
+}
+
+.p4{padding-left: 70px; position: relative;}
+.timeline{
+	width: 10px;
+    height: 10px;
+    background: transparent;
+    position: absolute;
+    left: 180px;
+    border-radius: 10px;
+    border: 3px solid #001729;
+    top: 5px;
+}
+.timeline::after{
+	    content: '';
+    position: absolute;
+    height: 32px;
+    width: 3px;
+    background: #08243b;
+    top: 11px;
+    left: 3.5px;
+}
+.end::after{
+	background: transparent;
+}
+.span1{float: left;}
+.span2{float: right;}
+.clearfix{clear: both;}
+.p5{padding-left: 70px; position: relative; display: inline-block;float: left;
+margin: 0px; width: 80px;}
+.span-all{
+	width: 137px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    margin-left: 62px;
+}
+.circle-span{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 13px;
+
+}
+.circle-span1{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 36px;
+
+}
+.circle-span2{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 59px;
+}
+.circle-span3{
+	background: #08243b;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 10px;
+    left: 82px;
+}
+.circle-null{
+	background: #ffffff;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    border-radius: 10px;
+    left: 105px;
+    border: 2px solid #001729;
+}
+.circle-null1{
+	background: #ffffff;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    border-radius: 10px;
+    left: 70px;
+    border: 2px solid #001729;
+}
+.p6{
+	vertical-align: text-top;
+    line-height: 17px;
+    text-align: left;
+    padding-left: 97px;
+}
+.span3{
+	font-size: 12px;
+    color: #001729;
+}
+    </style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+	<div class="resume">
+	<div class="left">
+		<br>
+		<img src="image\naiapict.jpg" class="profile">
+		<p class="left-p">Hello, I am</p>
+		<h2 class="name">Naia <strong>khanifatul aulia</strong> </h2>
+		<p class="p1">Digitl Marketing</p>
+		
+		<br>
+		<h2 class="heading-1"><i class="fa fa-user-o"></i> &nbsp;&nbsp;Contact</h2>
+		<p class="com-p"><i class="fa fa-phone"></i> &nbsp;&nbsp;0882-0074-86812</p>
+		<p class="com-p"><i class="fa fa-envelope"></i> &nbsp;&nbsp;<a href="mailto:khaniaulia3@gmail.com">khaniaulia3@gmail.com</a></p>
+		
+
+		<br>
+		<h2 class="heading-1"><i class="fa fa-comments-o"></i> &nbsp;&nbsp;Language</h2>
+		<p class="com-p">indonesia</p>
+		<p class="com-p">java</p>
+		
+
+		<br>
+		<h2 class="heading-1"><i class="fa fa-archive"></i> &nbsp;&nbsp;Hobbies</h2>
+		<p class="com-p">drawing</p>
+		<p class="com-p">Cooking</p>
+		<p class="com-p">sport</p>
+		<p class="com-p">music</p>
+		
+	
+	<br>
+
+	
+</div>
+
+<div class="right">
+	
+<div class="sect-one">
+	
+	<p class="label-1">Education</p>
+	<div class="circle2"></div>
+	<div class="circle"></div>
+	<div class="content">
+		<br>
+		<p class="p4"><span class="span1">2013-2019</span><span class="timeline"></span><span class="span2">MI Miftahul Huda</span></p><br>
+		<p class="p4"><span class="span1">2019-2022</span><span class="timeline"></span><span class="span2">SMP Eyzzul Moslem</span></p><br>
+		<p class="p4"><span class="span1">2022-2025</span><span class="timeline end"></span><span class="span2">SMK Eyzzul Moslem</span></p>
+	</div>
+
+	<div class="icon">
+		<i class="fa fa-mortar-board icon-1"></i>
+	</div>
+
+</div>
+<div class="sect-two">
+	<p class="label-1 label-2">Experience</p>
+	<div class="circle"></div>
+
+	<div class="content">
+		<br>
+		<p class="p4"><span class="span1">2024</span><span class="timeline"></span><span class="span2">Citra Komputer</span></p><br>
+		<p class="p4"><span class="span1">2024</span><span class="timeline"></span><span class="span2">Digital Marketing</span></p><br>
+	</div>
+
+	<div class="icon">
+		<i class="fa fa-suitcase icon-1" style="color: #91c917;"></i>
+	</div>
+
+</div>
+
+<div class="sect-three">
+	<p class="label-1 label-3">skills</p>
+	<div class="circle"></div>
+	<div class="content">
+		<br>
+		<div style="margin-top: 20px;"></div>
+		<p class="p5" style="text-align: left;">TEAMWORK <div class="span-all"> 
+			<span class="circle-span"></span>
+			<span class="circle-span1"></span>
+			<span class="circle-span2"></span>
+			<span class="circle-span3"></span>
+			<span class="circle-null"></span>
+		</div></p>
+		<div class="clearfix"></div>
+		<p class="p5" style="text-align: left;">PAINTING <div class="span-all"> 
+			<span class="circle-span"></span>
+			<span class="circle-span1"></span>
+			<span class="circle-span2"></span>
+			<span class="circle-span3"></span>
+			<span class="circle-null"></span>
+		</div></p>
+		<div class="clearfix"></div>
+		<p class="p5" style="text-align: left;">DIGITAL MARKETING <div class="span-all"> 
+			<span class="circle-span"></span>
+			<span class="circle-span1"></span>
+			<span class="circle-span2"></span>
+			<span class="circle-span3"></span>
+			<span class="circle-null"></span>
+		</div></p>
+		<div class="clearfix"></div>
+		<p class="p5" style="text-align: left;">KREATIF <div class="span-all"> 
+			<span class="circle-span"></span>
+			<span class="circle-span1"></span>
+			<span class="circle-span2"></span>
+			<span class="circle-span3"></span>
+			<span class="circle-null"></span>
+		</div></p>
+	</div>
+
+	<div class="icon">
+		<i class="fa fa-desktop icon-1" style="color: #f50545;"></i>
+	</div>
+
+</div>
+
+<div class="sect-four">
+	<p class="label-1 label-4">certification</p>
+	<div class="circle"></div>
+
+	<div class="content">
+		<br>
+		<div style="margin-top: 40px;"></div>
+		<p class="p6"><span class="circle-null1"></span>Name of Certification<br> 
+			<span class="span3">content creator</span></p>
+		<p class="p6"><span class="circle-null1"></span>Name of Certification<br> 
+			<span class="span3">gaming</span></p>
+
+	</div>
+
+	<div class="icon">
+		<i class="fa fa-certificate icon-1" style="color: #69009d;"></i>
+	</div>
+
+</div>
+<div class="sect-five">
+	<p class="label-1 label-5">Achievements</p>
+	<div class="content">
+		<div class="circle1"></div>
+		<br>
+		<p class="p4"><span class="span1">2019</span><span class="timeline"></span><span class="span2">contest of wits</span></p><br>
+		<p class="p4"><span class="span1">2023</span><span class="timeline"></span><span class="span2">content creator</span></p><br>
+	</div>
+
+	<div class="icon">
+		<i class="fa fa-trophy icon-1" style="color: #05a3fa;"></i>
+	</div>
+
+
+</div>
+
+	
+
+</div>
+
+
+<div class="clearfix"></div>
+</div>
+
+
+</body>
+</html>
